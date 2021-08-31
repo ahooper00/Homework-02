@@ -1,0 +1,132 @@
+* {
+    color: #26474E;
+}
+
+.name-title {
+    display: flex;
+    font-family: serif;
+    font-size: 60px;
+    margin: 40px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: #26474E;
+}
+
+.progress {
+    padding-left: 40px;
+    display: inline-block;
+}
+
+.progress-buffering {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline-block;
+    text-align: center;
+}
+
+.buffering-image {
+    width: 200px;
+    height: auto;
+    padding-left: 40px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(#F9968B, #2CCED2);
+    font-family: monospace;
+}
+
+nav {
+    padding-left: 20px;
+}
+
+.socials-title {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #26474E;
+}
+
+.socials {
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin: 0; 
+    display: flex;
+}
+
+#linkedin,
+#github,
+#email {
+    padding: 100px;
+    display: inline;
+    font-size: 20px;
+    color: #26474E;
+}
+
+.image-overview {
+    display: flex;
+}
+
+.web-div {
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.web-development {
+    border: 6px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    width: 400px;
+    height: auto;
+    display: flex;
+    margin: 2px;
+    vertical-align: top;
+    float: left;
+}
+
+figcaption {
+    font-size: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.overview-div {
+    display: flex;
+    flex-direction: column;
+    float: inline-end;
+    max-width: 500px;
+    text-align: left;
+}
+
+.overview-title {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.overview{
+    font-size: 15px;
+}
+
+.nutshell {
+    display: block;
+    border: 2px dotted black;
+    padding-left: 10px;
+}
+
+.nutshell-list {
+    list-style-type: none;
+}
+
+a:link {
+    color: #26474E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
