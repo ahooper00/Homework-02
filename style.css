@@ -1,18 +1,20 @@
-:root {
-    --background-color: #EEBAB2;
-}
+/* :root {
+} */
 
 * {
     color: #26474E;
+    font-family: 'Darker Grotesque';
 }
 
 header {
-    background-color: var(--background-color);
+    background-color: #9AD9DB;
+}
+
+.navDiv {
+    display: flex;
 }
 
 .name-title {
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
     margin: 40px;
     margin-top: 0px;
@@ -36,13 +38,12 @@ header {
 
 body {
     margin: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #faf9f9;
 }
 
 nav {
     padding-left: 20px;
-    flex-wrap: wrap;
-    text-align: justify;
+    display: flex;
 }
 
 .socials-title {
@@ -54,10 +55,7 @@ nav {
     margin-bottom: 5px;
 }
 
-.socials {
-    list-style-type: none;
-    padding-bottom: 10px;
-    margin: 0; 
+.socialsDiv {
     display: flex;
 }
 
@@ -65,13 +63,16 @@ nav {
 #github,
 #email {
     padding: 60px;
-    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
     font-size: 20px;
     color: #26474E;
 }
 
 .image-bio {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .web-div {
@@ -103,7 +104,6 @@ figcaption {
 .bio-div {
     display: flex;
     flex-direction: column;
-    float: inline-end;
     max-width: 500px;
     text-align: left;
 }
@@ -111,15 +111,18 @@ figcaption {
 .bio-title {
     font-size: 30px;
     font-style: italic;
+    margin: 10px;
 }
 
 .bio{
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .nutshell {
-    display: flex   ;
+    display: flex;
     padding-left: 10px;
+    background-color: #C1D5DE;
 }
 
 .nutshell-list {
@@ -132,7 +135,7 @@ figcaption {
 .list {
     padding: 40px;
     display: inline;
-    font-size: 15px;
+    font-size: 25px;
     color: #26474E;
 }
 
@@ -145,31 +148,38 @@ a span:hover {
     text-decoration: underline;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 h2 {
     font-size: 30px;
     font-style: italic;
+    margin: 15px;
 }
 
 .box-left {
     border: 2px solid black;
+    border-radius: 15px;
     padding: 10px;
     margin-left: 30%;
     margin-top: 10px;
-    width: 37.9%;
+    width: 50%;
     text-align: center;
-    background-color: var(--background-color);
+    background-color: #E5DBD9;
     display: flex;
     flex-direction: column;
 }
 
 .box-right {
     border: 2px solid black;
+    border-radius: 15px;
     padding: 10px;
     margin-right: 30%;
     margin-top: 10px;
-    width: 37.9%;
+    width: 50%;
     text-align: center;
-    background-color: var(--background-color);
+    background-color: #E5DBD9;
     display: flex;
     flex-direction: column;
 }
