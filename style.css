@@ -191,10 +191,6 @@ h2 {
     font-weight: bolder;
 }
 
-.projectScreenshotDiv {
-    display: flex;
-}
-
 .projectScreenshot {
     width: 400px;
 }
