@@ -1,6 +1,3 @@
-/* :root {
-} */
-
 * {
     color: #26474E;
     font-family: 'Darker Grotesque';
@@ -47,7 +44,7 @@ nav {
 }
 
 .socials-title {
-    font-size: 30px;
+    font-size: 3vw;
     font-style: italic;
     margin-left: 20px;
     color: #26474E;
@@ -57,16 +54,17 @@ nav {
 
 .socialsDiv {
     display: flex;
+    flex: 0 1 100%;
 }
 
 #linkedin,
 #github,
 #email {
-    padding: 60px;
+    padding: 50px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    font-size: 20px;
+    font-size: 2vw;
     color: #26474E;
 }
 
@@ -163,14 +161,18 @@ h2 {
     flex-direction: column;
 }
 
+.topic {
+    display: flex;
+    flex-direction: column;
+}
+
 .box {
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
-    /* margin-right: 30%; */
     margin-top: 10px;
-    width: 60%;
-    text-align: center;
+    width: 80%;
+    text-align: left;
     background-color: #D9D3D2;
     flex-direction: column;
     height: auto;
@@ -178,13 +180,29 @@ h2 {
     margin: auto;
 }
 
+.passwordScreenshot {
+    width: 300px;
+    float: right;
+}
+
 .project {
     font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.projectScreenshotDiv {
+    display: flex;
+}
+
+.projectScreenshot {
+    width: 400px;
 }
 
 .box-text {
-    font-size: 20px;
+    font-size: 1.5vw;
     line-height: 20px;
+    text-align: center;
 }
 
 .icon {
@@ -194,11 +212,6 @@ h2 {
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.topic {
-    display: flex;
-    flex-direction: column;
 }
 
 

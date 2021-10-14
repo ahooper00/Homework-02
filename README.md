@@ -1,4 +1,16 @@
 # Homework-02
 
-This homework task involved building a portfolio website from scratch, using HTML and advanced CSS skills acquired the past 2 weeks, including flexbox and pseudo classes. As I am early into my programming learning, I do not have many skills to showcase. However I will be building on and adding to this portfolio throughout the duration of (and beyond) this course. The navigation links for my contact details are navigate to actual links, however the sections for different topics (eg, basic web development, javascript) do not have anything to link to yet. 
-Hopefully, my design skills will improve with practise!
+*Updated Portfolio Page*
+
+This homework task involved building on a portfolio website that had been created early on in my coding course. 
+It primarily uses HTML and advanced CSS skills acquired throughout the duration of the course thus far, including flexbox and pseudo classes. 
+This portfolio page has links to my GitHub, LinkedIn and Email.
+The page also has a small description of myself and why I am pursuing programming.
+2 of my deployed application have been showcased, with links to the corresponding application and GitHub repository.
+An updated resume (with some personal information hidden) is available with newly acquired programming skills.
+
+![screenshot-of-portfolio-page](./Images/readme-screenshot.png?raw=true)
+![screenshot-of-portfolio-page](./Images/readme-screenshot1.png?raw=true)
+![screenshot-of-portfolio-page](./Images/readme-screenshot2.png?raw=true)
+
+Link to deployed application: https://ahooper00.github.io/Homework-02/
