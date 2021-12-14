@@ -207,6 +207,7 @@ h2 {
     display: flex;
     margin: auto;
     width: 80%;
+    justify-content: space-evenly;
 }
 
 .project-box-text {
@@ -215,7 +216,7 @@ h2 {
     text-align: left;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 200px;
+    width: 300px;
 }
 
 .passwordScreenshot {
