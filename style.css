@@ -59,7 +59,8 @@ nav {
 
 #linkedin,
 #github,
-#email {
+#email,
+#resume {
     padding: 50px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -180,6 +181,43 @@ h2 {
     margin: auto;
 }
 
+.node-box {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: #D9D3D2;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.projects-box {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: #D9D3D2;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.project-box-text {
+    font-size: 1.5vw;
+    line-height: 20px;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
 .passwordScreenshot {
     width: 300px;
     float: right;
@@ -195,10 +233,16 @@ h2 {
     width: 400px;
 }
 
+.box-text-div {
+    display: flex;
+}
+
 .box-text {
     font-size: 1.5vw;
     line-height: 20px;
-    text-align: center;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .icon {
@@ -210,6 +254,21 @@ h2 {
     padding-bottom: 20px;
 }
 
+.team-profile-div {
+    display: flex;
+}
+
+.teamProfileScreenshot {
+    width: auto;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mme-login,
+.mme-profile {
+    width: 400px;
+}
 
 footer {
     text-align: center;
